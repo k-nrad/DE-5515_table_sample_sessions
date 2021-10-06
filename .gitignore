@@ -129,10 +129,9 @@ dmypy.json
 .pyre/
 
 # project specific
-data_s3/
 Pipfile.lock
-.DS_Store
+#.DS_Store
 .idea/
-result/
-practise/
-bad_data/
+#result/
+#practise/
+#bad_data/
