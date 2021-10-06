@@ -135,3 +135,4 @@ Pipfile.lock
 #result/
 #practise/
 #bad_data/
+spark_reader/proba.py
