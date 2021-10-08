@@ -120,4 +120,4 @@ new_df = df_final.select('beacon', 'session_id', 'session_date', 'session_start'
 # new_df.write.mode('overwrite').insertInto(output_dbase + '.sampleSessions')
 
 result_path = 's3://de-data-science-experiments/konrad/result5515/'
-new_df.write.orc(path=result_path + output_dbase, artitionBy=['year', 'month', 'day'], mode='overwrite')
+new_df.write.orc(path=result_path + output_dbase, partitionBy=['year', 'month', 'day'], mode='overwrite')
